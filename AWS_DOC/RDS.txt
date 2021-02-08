@@ -1,0 +1,8 @@
+sudo su <Root user>
+yum install mysql -y < install mysql >
+mysql -hc -P 3306 -u mysqldatabase -p
+mysql -h mysqldatabase.cnkveaqdbq8y.us-east-2.rds.am
+azonaws.com -P 3306 -u mysqldatabase -p 
+
+<mysqldatabase.cnkveaqdbq8y.us-east-2.rds.am
+azonaws.com > End point from RDS

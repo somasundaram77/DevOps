@@ -1,0 +1,14 @@
+#!/bin/bash
+yum update -y
+yum install -y httpd
+systemctl start httpd
+systemctl enable httpd
+cd /var/www/html
+echo "This is for information" > index.html
+
+aws s3 cp s3://assigntest1
+
+ns-774.awsdns-32.net.
+ns-1530.awsdns-63.org.
+ns-418.awsdns-52.com.
+ns-1659.awsdns-15.co.uk.
